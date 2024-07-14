@@ -1,0 +1,28 @@
+.headingC1
+{
+ color: red;
+ font-size: 30px;
+ font-family: cursive;
+ 
+}
+#id3
+{
+    color: blue;
+    font-style: oblique;
+}
+.test-class1
+{
+    color:magenta;
+    font-size: 40px;
+    font-style: inherit;
+    font-variant-ligatures: contextual;
+    font-family: fantasy;
+}
+.test-class2
+{
+    color:greenyellow;
+    font-size: 10px;
+    font-style:initial;
+    font-variant-ligatures:no-common-ligatures;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
