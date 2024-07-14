@@ -1,0 +1,15 @@
+var a=3;
+var b=8;
+var temp;
+temp=b;
+b=a;
+a=temp;
+console.log("value of a",+a);
+console.log("value of b",+b);
+var message="Hello";
+var name="Vikram";
+console.log(message+" "+name);
+console.log((name+message).length);
+var paragraph="hello my name is vikram mishra. sometimes I feel like nobody in this world is perfect";
+var n=140;
+console.log("You have written " +paragraph.length +" characters, the number of characters left is "+(n-paragraph.length));

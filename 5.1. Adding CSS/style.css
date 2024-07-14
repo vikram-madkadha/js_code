@@ -1,0 +1,11 @@
+html{
+  background: fuchsia;
+}
+h1 {
+  color: red;
+  background-color: green;
+}
+p[draggable]{
+  color:blue;
+}
+

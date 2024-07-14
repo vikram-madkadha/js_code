@@ -1,0 +1,22 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change Button Text on Page Load</title>
+</head>
+<body>
+    <button id="2" class="class2">If you click the click!</button>
+
+    <script>
+        // Wait for the DOM to be fully loaded
+        document.addEventListener("DOMContentLoaded", function(event) {
+            // Select the button by its ID
+            var button = document.querySelector("#2");
+console.log(event);
+            // Change the text of the button
+            button.innerHTML = "I WILL SEE YOU";
+            console.log(event);
+        });
+    </script>
+</body>
+</html>
